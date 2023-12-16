@@ -15,6 +15,7 @@ export default function Home() {
             <h2>{folder.folderName}</h2>
             {folder.images.map((image) => (
               <DynamicImage
+                key={image}
                 src={`/${folder.folderName}/${image}`}
                 alt={image}
                 width={500}
