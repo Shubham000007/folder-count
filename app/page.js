@@ -20,6 +20,7 @@ export default function Home() {
                 alt={image}
                 width={500}
                 height={300}
+                priority
               />
             ))}
           </div>
